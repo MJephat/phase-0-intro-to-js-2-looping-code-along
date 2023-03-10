@@ -8,9 +8,10 @@ function writeCards(input_1, input_2) {
       var hii_line = `Thank you, ${input_1[i]}, for the wonderful ${input_2} gift!`;
       arr_a.push(hii_line);
     }
-    // console.log(arr_a);
+    console.log(arr_a);
     return arr_a;
 }
+writeCards(input_1,input_2);
 
 function countDown(hii_namba){
     while(hii_namba>=0){
