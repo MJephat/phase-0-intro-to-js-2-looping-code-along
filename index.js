@@ -20,3 +20,5 @@ function countDown(hii_namba){
     }
 }
 countDown(10);
+
+//console.log(countDown(10));
